@@ -1,0 +1,75 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.main {
+    height: 90vh;
+    width: 50%;
+    border-radius: 20px ;
+    background-color: white;
+   
+   
+}
+
+img {
+    height: 90vh;
+    width: 50%;
+    border-left: 20px;
+    float: left;
+}
+
+.content  {
+    float: right;
+    width: 60%px;
+    margin-right: 50px;
+    background-color: white;
+    
+    border-radius: 20px;
+    
+}
+
+h4 {
+    color: darkgrey;
+    font-size: 2em;
+
+}
+h2 {
+    color: black;
+    font-size: 3em;
+    
+}
+p {
+    font-size: 1.5em;
+    font-weight: lighter;
+    color: hsl(0, 1%, 52%);
+}
+span {
+    font-size: 4em;
+    font-weight: bolder;
+    color: hsla(157, 82%, 22%, 0.984);
+    margin-right: 20px;
+}
+
+del {
+    color: hsl(0, 1%, 52%);
+    font-size: x-large;
+}
+
+button {
+    background-color: hsl(158, 36%, 37%);
+    margin-top: 0px;
+    width: 310px;
+    height: 51px;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.5em;
+}
+
+button:hover {
+    background-color: hsl(161, 69%, 14%);
+    cursor: pointer;
+}
